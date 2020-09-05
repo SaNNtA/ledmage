@@ -43,7 +43,7 @@
                 $registryCheck->checkEmail($_POST['login'], "Неверно введена почта.");
                 $registryCheck->checkName($_POST['name'], "В имени разрешено использовать только русские, латинские буквы и цифры.");
                 $registryCheck->checkPhone($_POST['phone'], "Неверно введден номер телефона.");
-                $registryCheck->checkAge($_POST['age'], "Неверно указан воз");
+                $registryCheck->checkAge($_POST['age'], "Неверно указан возраст");
                 $registryCheck->checkPassword($_POST['password'], $_POST['passwordCheck'], "Пароль должен состоять как минимум из 8 имволов.", "В пароле использованы недопустимые символы.", "Пароли не совпадают.");
                 $registryCheck->checkExistence($dataArr['exist'], "Данные ваших реквизитов уже зарегистрированы.");
 
