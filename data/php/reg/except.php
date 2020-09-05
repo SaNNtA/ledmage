@@ -63,7 +63,7 @@
 
         public function checkExistence($existance, string $stringToWrite) {
             if (!$this->excCatcher) {
-                if ($existence) {
+                if ($existance > 0) {
                     echo "<div class='error'>".$stringToWrite."</div>";
                     $this->excCatcher = true;
                 }

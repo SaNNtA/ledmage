@@ -37,7 +37,7 @@
             $dataBase = $link->query("SELECT COUNT(*) as exist FROM `user` WHERE `login` = '" . $_POST['login'] . "' OR `phone` = '" .$_POST['phone']. "'");
             $dataArr = $dataBase->fetch_assoc();
 
-            if (isset($_POST['registryButton'])) {
+            if (isset($_POST['registryButton']) && !empty($_POST['login'])) {
 
                 $registryCheck = new RegistryExc();
                 $registryCheck->checkEmail($_POST['login'], "Неверно введена почта.");
