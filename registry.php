@@ -66,7 +66,7 @@
                 }
             }
             ?>
-        <p><a class="personalArea__register" href="index.php">Уже зарегистрированы?</a></p>
+        <p><a class="personalArea__register" href="authorization.php">Уже зарегистрированы?</a></p>
         </div>
     </div>
 </div>
