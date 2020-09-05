@@ -11,7 +11,7 @@
     <div class="registryArea__inner">
         <div class="registryArea__title">Регистрация</div>
         <div class="registryArea__form">
-            <form method="post">текст
+            <form method="post">
                 <input type="email" name="login" required placeholder="Почта" value="<?php echo $_POST['login']; ?>">
                 <input type="text" name="name" pattern="^[A-Za-zА-Яа-я]+$" required placeholder="Имя" value="<?php echo $_POST['name']; ?>">
                 <input type="text" name="surname" pattern="^[A-Za-zА-Яа-я]+$" placeholder="Фамилия" value="<?php echo $_POST['surname']; ?>">
@@ -55,8 +55,8 @@
                 else if ($_POST['password'] != $_POST['passwordCheck']) {
                     echo "<div class='error'>Введенные пароли не совпадают.</div>";
                 }
-                else if ($link->query("INSERT INTO `user`(`login`, `password`, `phone`, `name`, `surname`, `age`)
-                        VALUES ('" . $_POST['login'] . "', '" . hash('md5', $_POST['password'], false) . "', '" . $_POST['phone'] . "', '" . $_POST['name'] . "', '" . $_POST['surname'] . "',  " . $_POST['age'] . ")")) {
+                else if ($link->query("INSERT INTO `user`(`login`, `password`, `phone`, `name`, `surname`, `age`, `id_status`)
+                        VALUES ('" . $_POST['login'] . "', '" . hash('md5', $_POST['password'], false) . "', '" . $_POST['phone'] . "', '" . $_POST['name'] . "', '" . $_POST['surname'] . "',  " . $_POST['age'] . ", '1')")) {
                     session_start();
                     $_SESSION["login"] = $_POST['login'];
                     header('Location: userPage.php');
