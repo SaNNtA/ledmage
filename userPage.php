@@ -14,7 +14,7 @@
 <body>
 <?php
 session_start();
-echo "Вход выполнен под " . $_SESSION["login"];
+echo "Ваш токен: " . $_SESSION["token"];
 ?>
 </body>
 </html>

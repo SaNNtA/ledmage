@@ -37,7 +37,11 @@
 
                 if (!empty($result)) {
                     session_start();
-                    $_SESSION["login"] = $result['login'];
+                    //Генерирую токен ключ для входи и вношу его в бд
+                    $token = bin2hex(random_bytes(50));
+                    $link->query("UPDATE `user` SET `token`='".$token."' WHERE `id` = ".$result['id']);
+                    $_SESSION["token"] = $token;
+
                     header('Location: userPage.php');
                 } else {
                     echo "<div class='error'>Некорректно введены данные</div>";
