@@ -16,6 +16,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1h5b5RrAADPcXgHKHOuMxekz3J2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +24,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -44,6 +46,9 @@
       <option name="presentableId" value="Default" />
       <updated>1599303716759</updated>
       <workItem from="1599303717886" duration="2073000" />
+      <workItem from="1599454200826" duration="4402000" />
+      <workItem from="1599534004640" duration="9367000" />
+      <workItem from="1599638570159" duration="325000" />
     </task>
     <servers />
   </component>
@@ -51,6 +56,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="585" y="149" key="CommitChangelistDialog2" timestamp="1599639068351">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="585" y="149" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1599639068351" />
     <state x="740" y="309" key="FileChooserDialogImpl" timestamp="1599305882811">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -59,5 +68,9 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="461" y="197" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1599305883702" />
+    <state x="552" y="287" key="Vcs.Push.Dialog.v2" timestamp="1599638963282">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="287" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1599638963282" />
   </component>
 </project>
