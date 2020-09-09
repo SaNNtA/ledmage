@@ -19,7 +19,7 @@
         public function checkEmail(string $stringToCheck, string $stringToWrite) {
 
             if (!$this->excCatcher) {
-                if (!preg_match("/^[a-zA-Z0-9]{5,}@[a-zA-Z]{3,}.[a-zA-Z]{2,}$/", $stringToCheck)) {
+                if (!preg_match("/^[a-zA-Z0-9]{3,}@[a-zA-Z]{3,}.[a-zA-Z]{2,}$/", $stringToCheck)) {
                     echo "<div class='error'>".$stringToWrite."</div>";
                     $this->excCatcher = true;
                 }
@@ -28,7 +28,7 @@
 
         public function checkAge(string $stringToCheck, string $stringToWrite) {
             if (!$this->excCatcher) {
-                if (!preg_match("/^[0-9]{1,3}$/", $stringToCheck)) {
+                if (!preg_match("/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/", $stringToCheck)) {
                     echo "<div class='error'>".$stringToWrite."</div>";
                     $this->excCatcher = true;
                 }
@@ -37,7 +37,7 @@
 
         public function checkName(string $stringToCheck, string $stringToWrite) {
             if (!$this->excCatcher) {
-                if (!preg_match("/^\S+/", $stringToCheck)) {
+                if (!preg_match("/^\S{3,}/", $stringToCheck)) {
                     echo "<div class='error'>".$stringToWrite."</div>";
                     $this->excCatcher = true;
                 }
@@ -63,7 +63,7 @@
 
         public function checkExistence($existance, string $stringToWrite) {
             if (!$this->excCatcher) {
-                if ($existance > 0) {
+                if ($existance) {
                     echo "<div class='error'>".$stringToWrite."</div>";
                     $this->excCatcher = true;
                 }
