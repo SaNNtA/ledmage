@@ -11,8 +11,7 @@
 <div class="registryArea">
     <div class="registryArea__inner">
         <div class="registryArea__title">Регистрация</div>
-        <div class="registryArea__form">
-            <form method="post">
+            <form method="post" class="registryArea__form">
                 <input type="email" name="login" required placeholder="Почта" value="<?php echo $_POST['login']; ?>"><br>
                 <input type="text" name="name" pattern="^[A-Za-zА-Яа-я]+$" required placeholder="Имя" value="<?php echo $_POST['name']; ?>"><br>
                 <input type="text" name="surname" pattern="^[A-Za-zА-Яа-я]+$" placeholder="Фамилия" value="<?php echo $_POST['surname']; ?>"><br>
@@ -24,8 +23,10 @@
                 <input type="password" name="passwordCheck" required><br>
                 <label>Создавая аккаунт вы соглашаетесь с <a class="personalArea__register" href="license.html">лицензионным соглашением</a> нашей
                     компании.</label><br>
-                <input class="check" type="checkbox" name="license" required>
-                <label>Я принимаю условия лицензионного соглашения.</label><br>
+                <div>
+                    <input class="check" type="checkbox" name="license" required>
+                    <label>Я принимаю условия лицензионного соглашения.</label><br>
+                </div>
                 <input type="submit" name="registryButton" value="Зарегистрироваться"><br>
 
             </form>
@@ -61,7 +62,6 @@
             }
             ?>
         <p><a class="personalArea__register" href="authorization.php">Уже зарегистрированы?</a></p>
-        </div>
     </div>
 </div>
 </body>
