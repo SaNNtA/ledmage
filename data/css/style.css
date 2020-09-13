@@ -377,3 +377,59 @@ ul,li {
     min-height: 320px;
 }
 
+/* USER_PAGE */
+
+.userPage {
+    width: 100% - 350px;
+    float:right;
+
+    background-color: black;
+
+}
+
+.userPage_topic {
+    background-color: green;
+}
+
+.userPage_topic_content {
+    margin: 0;
+}
+
+/* USER_PAGE_HEADER */
+
+.userPage_header {
+    width: 100%;
+    min-height: 150px;
+    /* padding-left: 100px; */
+    background-color: orange;
+    display: flex;
+    align-items: center;
+
+    /* color: red; */
+}
+
+.userPage_userName {
+    /* margin: 50px; */
+    background-color: green;
+    font-family: 'Montserrat', sans-serif;
+    flex-grow: 2;
+}
+
+.userPage_profileSettings {
+    flex-grow: 1;
+    background-color: green;
+}
+
+/* USER_PAGE_INTERESTS */
+
+.userPage_interests {
+    background-color: pink;
+    min-height: 300px;
+}
+
+/* USER_PAGE_ACTIVITY */
+
+.userPage_activity {
+    background-color: grey;
+    min-height: 300px;
+}

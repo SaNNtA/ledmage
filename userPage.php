@@ -22,11 +22,37 @@
 <body>
 
 <?php
-
     require_once 'data/php/header.php';
-
+    require_once 'data/php/container.php';
     echo "Ваш токен: " . $_SESSION["token"];
 ?>
+    <div class="userPage">
+        <div class="userPage_header">
+            <div class="userPage_userName">
+                <h1>UserName</h1>
+            </div>
+            <div class="userPage_profileSettings">
+                <h3>Настройки профиля</h3>
+            </div>
+        </div>
+        <div class="userPage_interests">
+            <div class="userPage_topic">
+                <h2 class="userPage_topic_content">Интересы</h2>
+            </div>
+        </div>
+        <div class="userPage_activity">
+            <div class="userPage_topic">
+                <h2 class="userPage_topic_content">Активность</h2>
+            </div>
+            <div class="userPage_activityBlock">
+
+            </div>
+            <div class="userPage_activityBlock">
+
+            </div>
+        </div>
+    </div>
+
 
 </body>
 </html>
