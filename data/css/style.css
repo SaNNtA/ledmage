@@ -379,16 +379,34 @@ ul,li {
 
 /* USER_PAGE */
 
-.userPage {
-    width: 100% - 350px;
-    float:right;
+.mainPage {
+    margin-top: 50px;
+    display: flex;
+}
 
-    background-color: black;
+.userPage {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    padding-left: 40px;
+    /* flex-grow: 10; */
+
+}
+
+.userPage_contentBlock {
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: rgba(222, 216, 215, 0.6);
+    width: 60%;
+    padding: 10px;
+}
+
+.userPage_contentBlock_content {
 
 }
 
 .userPage_topic {
-    background-color: green;
+    /* background-color: green; */
 }
 
 .userPage_topic_content {
@@ -401,7 +419,7 @@ ul,li {
     width: 100%;
     min-height: 150px;
     /* padding-left: 100px; */
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     align-items: center;
 
@@ -410,26 +428,35 @@ ul,li {
 
 .userPage_userName {
     /* margin: 50px; */
-    background-color: green;
+    /* background-color: green; */
     font-family: 'Montserrat', sans-serif;
     flex-grow: 2;
 }
 
 .userPage_profileSettings {
     flex-grow: 1;
-    background-color: green;
+    /* background-color: green; */
+}
+
+.userPage_profileSettings a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #07f;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.15s;
 }
 
 /* USER_PAGE_INTERESTS */
 
 .userPage_interests {
-    background-color: pink;
-    min-height: 300px;
+    /* background-color: pink; */
+    min-height: 150px;
 }
 
 /* USER_PAGE_ACTIVITY */
 
 .userPage_activity {
-    background-color: grey;
+    /* background-color: grey; */
     min-height: 300px;
 }

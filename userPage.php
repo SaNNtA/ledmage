@@ -23,36 +23,45 @@
 
 <?php
     require_once 'data/php/header.php';
-    require_once 'data/php/container.php';
-    echo "Ваш токен: " . $_SESSION["token"];
 ?>
-    <div class="userPage">
-        <div class="userPage_header">
-            <div class="userPage_userName">
-                <h1>UserName</h1>
+    <div class="mainPage">
+<?php
+    require_once 'data/php/container.php';
+    //echo "Ваш токен: " . $_SESSION["token"];
+?>
+        <div class="userPage">
+            <div class="userPage_header">
+                <div class="userPage_userName">
+                    <h1>UserName</h1>
+                </div>
+                <div class="userPage_profileSettings">
+                    <a href="#">Настройки профиля</a>
+                </div>
             </div>
-            <div class="userPage_profileSettings">
-                <h3>Настройки профиля</h3>
+            <div class="userPage_interests">
+                <div class="userPage_topic">
+                    <h2 class="userPage_topic_content">Интересы</h2>
+                </div>
+                <div class="userPage_contentBlock">
+                    <p class=".userPage_contentBlock_content">В данный момент мы не знаем о ваших предпочтениях. Читайте публикации и тут обязательно появятся рекомендации.</p>
+                </div>
             </div>
-        </div>
-        <div class="userPage_interests">
-            <div class="userPage_topic">
-                <h2 class="userPage_topic_content">Интересы</h2>
-            </div>
-        </div>
-        <div class="userPage_activity">
-            <div class="userPage_topic">
-                <h2 class="userPage_topic_content">Активность</h2>
-            </div>
-            <div class="userPage_activityBlock">
+            <div class="userPage_activity">
+                <div class="userPage_topic">
+                    <h2 class="userPage_topic_content">Активность</h2>
+                </div>
+                <div class="userPage_contentBlock">
+                    <p class=".userPage_contentBlock_content">Тут отображаются все ваши понравившиеся посты и комментарии.</p>
+                </div>
+                <div class="userPage_activityBlock">
 
-            </div>
-            <div class="userPage_activityBlock">
+                </div>
+                <div class="userPage_activityBlock">
 
+                </div>
             </div>
         </div>
     </div>
-
 
 </body>
 </html>

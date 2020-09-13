@@ -1,4 +1,4 @@
-<div class="menu__category" style="float: left">
+<div class="menu__category">
     <ul class="menu__category__inner">
         <li class="menu__category__item active">
             <div class="menu__category__item__image">
