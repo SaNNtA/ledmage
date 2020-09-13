@@ -43,7 +43,7 @@
                     <h2 class="userPage_topic_content">Интересы</h2>
                 </div>
                 <div class="userPage_contentBlock">
-                    <p class=".userPage_contentBlock_content">В данный момент мы не знаем о ваших предпочтениях. Читайте публикации и тут обязательно появятся рекомендации.</p>
+                    <p>В данный момент мы не знаем о ваших предпочтениях. Читайте публикации и тут обязательно появятся рекомендации.</p>
                 </div>
             </div>
             <div class="userPage_activity">
@@ -51,13 +51,27 @@
                     <h2 class="userPage_topic_content">Активность</h2>
                 </div>
                 <div class="userPage_contentBlock">
-                    <p class=".userPage_contentBlock_content">Тут отображаются все ваши понравившиеся посты и комментарии.</p>
+                    <p>Тут отображаются все ваши понравившиеся посты и комментарии.</p>
                 </div>
-                <div class="userPage_activityBlock">
-
+                <div class="userPage_contentBlock">
+                    <h3>Заголовок</h3>
+                    <p>ТекстТекстТекстТекстТекстТекстТекст <a href="#">Ссылка</a> ТекстТекст ТекстТекстТекстТекстТекстТекстТекст.</p>
+                    <a href="#">Ссылка</a>
                 </div>
-                <div class="userPage_activityBlock">
-
+                <div class="userPage_contentBlock">
+                    <p>Пользователь <a href="#">Геннадий Букин</a> оценил вашу <a href="#">публикацию</a>.</p>
+                </div>
+                <div class="userPage_contentBlock">
+                    <p>Пользователь <a href="#">Геннадий Букин</a> оставил комментарии под вашей <a href="#">публикацией</a>.</p>
+                </div>
+                <div class="userPage_contentBlock">
+                    <p>Пользователь <a href="#">Геннадий Букин</a> оставил комментарии под вашей <a href="#">публикацией</a>.</p>
+                </div>
+                <div class="userPage_contentBlock">
+                    <p>Пользователь <a href="#">Геннадий Букин</a> оставил комментарии под вашей <a href="#">публикацией</a>.</p>
+                </div>
+                <div class="userPage_contentBlock">
+                    <p>Пользователь <a href="#">Геннадий Букин</a> оставил комментарии под вашей <a href="#">публикацией</a> .</p>
                 </div>
             </div>
         </div>
